@@ -1,0 +1,42 @@
+*{
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner .banner-pic{
+    width: 635px;
+    height: 800px;
+    margin: 150px 250px 0px 1050;
+}
+
+.banner {
+    display: flex;
+    margin: 200px 950px 350px 250px;
+
+}
+.banner .banner-title{
+    margin: 2px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.btn-primary{
+    color: #262222;
+    background-color: #E55473;
+    padding: 10px 12px;
+}
+
+.banner .banner-pic{
+    width: 635px;
+    height: 800px;
+}
