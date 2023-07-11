@@ -1,42 +1,45 @@
-*{
-    font-family: 'Kablammo', cursive;
+body{
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
-/* Header */
+/* Header related styles */
 .header {
-    background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, top left;
+    background: rgba(229, 84, 115, 0.10);
 }
 
-.banner .banner-pic{
-    width: 635px;
-    height: 800px;
-    margin: 150px 250px 0px 1050;
-}
-
-.banner {
+.banner{
+    padding: 30px 50px 30px 150px;
     display: flex;
-    margin: 200px 950px 350px 250px;
-
+    align-items: center;
+    justify-content: space-around;
 }
-.banner .banner-title{
-    margin: 2px;
-    font-size: 50px;
+
+.banner .banner-content .banner-title{
+    color: #272727;
+    font-size: 70px;
     font-weight: 800;
+    margin-bottom: 15px;
+    border: 0px;
+}
+
+.banner-description{
+    width: 650px;
+    flex-direction: column;
+    margin-bottom: 25px;
 }
 
 .btn-primary{
-    color: #262222;
+    border-radius: 5px;
     background-color: #E55473;
-    padding: 10px 12px;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+    border: 0px;
 }
 
-.banner .banner-pic{
+.banner-pic{
     width: 635px;
     height: 800px;
+    align-items:flex-end;
 }
