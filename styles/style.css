@@ -126,7 +126,7 @@ body{
 
 /* Deal Related Styles */
 .deal{
-    margin: 0px;
+    margin-top: 30px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
@@ -149,4 +149,28 @@ body{
 }
 .deal-pic{
     padding: 100px 0px;
+}
+
+/* Instagram Section related styles */
+.instagram{
+    margin: 30px 220px;
+}
+.instagram .instagram-container{
+    text-align: center;
+    margin: 130px 0px 50px 0px;
+}
+.instagram .instagram-container .instagram-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram .instagram-container .instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.instagram .instagram-pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
