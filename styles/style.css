@@ -1,6 +1,34 @@
+/* Common styles */
 body{
     font-family: 'Lato', sans-serif;
 }
+
+/* .text-primary {
+    color: #FD6E0A;
+} */
+
+.btn-primary{
+    border-radius: 5px;
+    background-color: #E55473;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+    border: 0px;
+}
+
+/* .section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+} */
+
+/* .section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+} */
 
 /* Header related styles */
 .header {
@@ -28,18 +56,70 @@ body{
     margin-bottom: 25px;
 }
 
-.btn-primary{
-    border-radius: 5px;
-    background-color: #E55473;
-    font-size: 20px;
-    color: white;
-    padding: 20px;
-    margin-top: 5px;
-    border: 0px;
-}
-
 .banner-pic{
     width: 635px;
     height: 800px;
     align-items:flex-end;
+}
+
+/* Main section styles */
+
+/* Featured Flower Section Style */
+
+.featured{
+    margin: 50px 250px;
+}
+
+.featured .section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.featured .section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    margin-bottom: 50px;
+}
+
+.featured .featured-flowers{
+    margin: 30px 250px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.featured-flower1{
+    width: 300px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 70px 0px 70px;
+    margin-right: 25px;
+}
+.featured-flower2{
+    width: 300px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 70px 0px 70px;
+    margin-right: 25px;
+}
+.featured-flower3{
+    width: 300px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 100px 70px 0px 70px;
+}
+.flower-title{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
 }
