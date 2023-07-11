@@ -3,9 +3,9 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-/* .text-primary {
-    color: #FD6E0A;
-} */
+.text-primary {
+    color: #E55473;
+}
 
 .btn-primary{
     border-radius: 5px;
@@ -32,7 +32,7 @@ body{
 
 /* Header related styles */
 .header {
-    background: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
 }
 
 .banner{
@@ -122,4 +122,31 @@ body{
     align-items: center;
     justify-content: space-around;
     margin-top: 0px;
+}
+
+/* Deal Related Styles */
+.deal{
+    margin: 0px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.deal .hot-deal{
+    text-align: center;
+}
+.deal .hot-deal .deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal .hot-deal .deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.deal-pic{
+    padding: 100px 0px;
 }
